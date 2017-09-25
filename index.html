@@ -1,0 +1,378 @@
+<html><body>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/bonsai/0.4/bonsai.min.js"></script>
+<div id="movie"></div>
+<script>
+  bonsai.run(document.getElementById('movie'), {
+    code: function() {
+var black = new Rect(200,198,6,6); black.fill('black'); black.addTo(stage);
+var black = new Rect(195,195,5,5); black.fill('black'); black.addTo(stage);
+var black = new Rect(205,195,5,5); black.fill('black'); black.addTo(stage);
+var black = new Rect(205,190,5,5); black.fill('black'); black.addTo(stage);
+var black = new Rect(195,190,5,5); black.fill('black'); black.addTo(stage);
+var black = new Rect(205,185,5,5); black.fill('black'); black.addTo(stage);
+var black = new Rect(195,185,5,5); black.fill('black'); black.addTo(stage);
+var black = new Rect(210,185,5,5); black.fill('black'); black.addTo(stage);
+var black = new Rect(190,185,5,5); black.fill('black'); black.addTo(stage);
+var black = new Rect(185,180,5,5); black.fill('black'); black.addTo(stage);
+var black = new Rect(185,175,5,5); black.fill('black'); black.addTo(stage);
+var black = new Rect(190,170,5,5); black.fill('black'); black.addTo(stage);
+var black = new Rect(215,180,5,5); black.fill('black'); black.addTo(stage);
+var black = new Rect(215,175,5,5); black.fill('black'); black.addTo(stage);
+var black = new Rect(210,170,5,5); black.fill('black'); black.addTo(stage);
+var ppurple = new Rect(195,165,5,5);ppurple.fill('#7f00ff'); ppurple.addTo(stage);
+var ppurple = new Rect(195,160,5,5);ppurple.fill('#7f00ff'); ppurple.addTo(stage);
+var ppurple = new Rect(205,165,5,5);ppurple.fill('#7f00ff'); ppurple.addTo(stage);
+var ppurple = new Rect(205,160,5,5);ppurple.fill('#7f00ff'); ppurple.addTo(stage);
+var blue = new Rect(195,175,5,5); blue.fill('blue'); blue.addTo(stage);
+var blue = new Rect(205,175,5,5); blue.fill('blue'); blue.addTo(stage);
+var white = new Rect(200,195,5,5); white.fill('#d4fbfc'); white.addTo(stage);
+var drb = new Rect(200,190,5,5); drb.fill('#2f4f72'); drb.addTo(stage);
+var drkp = new Rect(200,185,5,5); drkp.fill('#3e0b63'); drkp.addTo(stage);
+var drkp = new Rect(200,180,5,5); drkp.fill('#3e0b63'); drkp.addTo(stage);
+var drkp = new Rect(190,180,5,5); drkp.fill('#3e0b63'); drkp.addTo(stage);
+var drkp = new Rect(210,180,5,5); drkp.fill('#3e0b63'); drkp.addTo(stage);
+var lghtp = new Rect(205,180,5,5); lghtp.fill('#8d82ba'); lghtp.addTo(stage);
+var lghtp = new Rect(195,180,5,5); lghtp.fill('#8d82ba'); lghtp.addTo(stage);
+var lghtp = new Rect(205,170,5,5); lghtp.fill('#8d82ba'); lghtp.addTo(stage);
+var lghtp = new Rect(195,170,5,5); lghtp.fill('#8d82ba'); lghtp.addTo(stage);
+var lgdrp = new Rect(210,175,5,5); lgdrp.fill('#4d427c'); lgdrp.addTo(stage);
+var lgdrp = new Rect(190,175,5,5); lgdrp.fill('#4d427c'); lgdrp.addTo(stage);
+var lghtb = new Rect(200,170,5,5); lghtb.fill('#1569ef'); lghtb.addTo(stage);
+var lghtb = new Rect(200,165,5,5); lghtb.fill('#1569ef'); lghtb.addTo(stage);
+var lghtb = new Rect(200,175,5,5); lghtb.fill('#1569ef'); lghtb.addTo(stage);
+var blpu = new Rect(200,160,5,5); blpu.fill('#654dc6'); blpu.addTo(stage);
+var blpu = new Rect(200,155,5,5); blpu.fill('#654dc6'); blpu.addTo(stage);
+var toppurp = new Rect(200,150,5,5); toppurp.fill('#aa63e8'); toppurp.addTo(stage);
+var toppurp = new Rect(205,155,5,5); toppurp.fill('#aa63e8'); toppurp.addTo(stage);
+var toppurp = new Rect(195,155,5,5); toppurp.fill('#aa63e8'); toppurp.addTo(stage);
+var toppurp = new Rect(210,150,5,5); toppurp.fill('#aa63e8'); toppurp.addTo(stage);
+var toppurp = new Rect(190,150,5,5); toppurp.fill('#aa63e8'); toppurp.addTo(stage);
+var toppurp = new Rect(190,145,5,5); toppurp.fill('#aa63e8'); toppurp.addTo(stage);
+var toppurp = new Rect(210,145,5,5); toppurp.fill('#aa63e8'); toppurp.addTo(stage);
+var toppurp = new Rect(195,140,5,5); toppurp.fill('#aa63e8'); toppurp.addTo(stage);
+var toppurp = new Rect(205,140,5,5); toppurp.fill('#aa63e8'); toppurp.addTo(stage);
+var toppurp = new Rect(195,135,5,5); toppurp.fill('#aa63e8'); toppurp.addTo(stage);
+var toppurp = new Rect(205,135,5,5); toppurp.fill('#aa63e8'); toppurp.addTo(stage);
+var toppurp = new Rect(200,130,5,5); toppurp.fill('#aa63e8'); toppurp.addTo(stage);
+var rllpurpl = new Rect(200,145,5,5); rllpurpl.fill('#d8c5f7');rllpurpl.addTo(stage);
+var rllpurpl = new Rect(205,145,5,5); rllpurpl.fill('#d8c5f7');rllpurpl.addTo(stage);
+var rllpurpl = new Rect(205,150,5,5); rllpurpl.fill('#d8c5f7');rllpurpl.addTo(stage);
+var rllpurpl = new Rect(195,150,5,5); rllpurpl.fill('#d8c5f7');rllpurpl.addTo(stage);
+var rllpurpl = new Rect(195,145,5,5); rllpurpl.fill('#d8c5f7');rllpurpl.addTo(stage);
+var whp = new Rect(200,135,5,5); whp.fill('#e9e1f7'); whp.addTo(stage);
+var whp = new Rect(200,140,5,5); whp.fill('#e9e1f7'); whp.addTo(stage);
+
+var effect = new Animation('0.7s', {
+  fillColor: 'white',
+  strokeColor: 'white'
+}, 
+{
+  repeat: Infinity
+});
+
+
+var purple = new Rect(245,162,2,2);purple.fill('#7f00ff'); purple.addTo(stage);
+effect.addSubjects([purple]);
+var purple = new Rect(243,160,2,2);purple.fill('#7f00ff'); purple.addTo(stage);
+effect.addSubjects([purple]);
+var purple = new Rect(247,160,2,2);purple.fill('#7f00ff'); purple.addTo(stage);
+effect.addSubjects([purple]);
+var purple = new Rect(245,158,2,2);purple.fill('#7f00ff'); purple.addTo(stage);
+effect.addSubjects([purple]);
+effect.play();
+
+var purple = new Rect(145,162,2,2);purple.fill('#7f00ff'); purple.addTo(stage);
+effect.addSubjects([purple]);
+var purple = new Rect(143,160,2,2);purple.fill('#7f00ff'); purple.addTo(stage);
+effect.addSubjects([purple]);
+var purple = new Rect(147,160,2,2);purple.fill('#7f00ff'); purple.addTo(stage);
+effect.addSubjects([purple]);
+var purple = new Rect(145,158,2,2);purple.fill('#7f00ff'); purple.addTo(stage);
+effect.addSubjects([purple]);
+
+var effect1 = new Animation('0.9s', {
+  fillColor: 'white',
+  strokeColor: 'white'
+}, 
+{
+  repeat: Infinity
+});
+
+
+var purple1 = new Rect(255,182,2,2);purple1.fill('#7f00ff'); purple1.addTo(stage);
+effect1.addSubjects([purple1]);
+var purple1 = new Rect(253,180,2,2);purple1.fill('#7f00ff'); purple1.addTo(stage);
+effect1.addSubjects([purple1]);
+var purple1 = new Rect(257,180,2,2);purple1.fill('#7f00ff'); purple1.addTo(stage);
+effect1.addSubjects([purple1]);
+var purple1 = new Rect(255,178,2,2);purple1.fill('#7f00ff'); purple1.addTo(stage);
+effect1.addSubjects([purple1]);
+effect1.play();
+
+var purple1 = new Rect(165,192,2,2);purple1.fill('#7f00ff'); purple1.addTo(stage);
+effect1.addSubjects([purple1]);
+var purple1 = new Rect(163,190,2,2);purple1.fill('#7f00ff'); purple1.addTo(stage);
+effect1.addSubjects([purple1]);
+var purple1 = new Rect(167,190,2,2);purple1.fill('#7f00ff'); purple1.addTo(stage);
+effect1.addSubjects([purple1]);
+var purple1 = new Rect(165,188,2,2);purple1.fill('#7f00ff'); purple1.addTo(stage);
+effect1.addSubjects([purple1]);
+
+
+var effect2 = new Animation('1.6s', {
+  fillColor: 'white',
+  strokeColor: 'white'
+}, 
+{
+  repeat: Infinity
+});
+var black = new Rect(199,198,7,6); black.fill('black'); black.addTo(stage);
+var black = new Rect(195,195,5,5); black.fill('black'); black.addTo(stage);
+var black = new Rect(205,195,5,5); black.fill('black'); black.addTo(stage);
+var black = new Rect(205,190,5,5); black.fill('black'); black.addTo(stage);
+var black = new Rect(195,190,5,5); black.fill('black'); black.addTo(stage);
+var black = new Rect(205,185,5,5); black.fill('black'); black.addTo(stage);
+var black = new Rect(195,185,5,5); black.fill('black'); black.addTo(stage);
+var black = new Rect(210,185,5,5); black.fill('black'); black.addTo(stage);
+var black = new Rect(190,185,5,5); black.fill('black'); black.addTo(stage);
+var black = new Rect(185,180,5,5); black.fill('black'); black.addTo(stage);
+var black = new Rect(185,175,5,5); black.fill('black'); black.addTo(stage);
+var black = new Rect(190,170,5,5); black.fill('black'); black.addTo(stage);
+var black = new Rect(215,180,5,5); black.fill('black'); black.addTo(stage);
+var black = new Rect(215,175,5,5); black.fill('black'); black.addTo(stage);
+var black = new Rect(210,170,5,5); black.fill('black'); black.addTo(stage);
+var ppurple = new Rect(195,165,5,5);ppurple.fill('#7f00ff'); ppurple.addTo(stage);
+var ppurple = new Rect(195,160,5,5);ppurple.fill('#7f00ff'); ppurple.addTo(stage);
+var ppurple = new Rect(205,165,5,5);ppurple.fill('#7f00ff'); ppurple.addTo(stage);
+var ppurple = new Rect(205,160,5,5);ppurple.fill('#7f00ff'); ppurple.addTo(stage);
+var blue = new Rect(195,175,5,5); blue.fill('blue'); blue.addTo(stage);
+var blue = new Rect(205,175,5,5); blue.fill('blue'); blue.addTo(stage);
+var white = new Rect(200,195,5,5); white.fill('#d4fbfc'); white.addTo(stage);
+var drb = new Rect(200,190,5,5); drb.fill('#2f4f72'); drb.addTo(stage);
+var drkp = new Rect(200,185,5,5); drkp.fill('#3e0b63'); drkp.addTo(stage);
+var drkp = new Rect(200,180,5,5); drkp.fill('#3e0b63'); drkp.addTo(stage);
+var drkp = new Rect(190,180,5,5); drkp.fill('#3e0b63'); drkp.addTo(stage);
+var drkp = new Rect(210,180,5,5); drkp.fill('#3e0b63'); drkp.addTo(stage);
+var lghtp = new Rect(205,180,5,5); lghtp.fill('#8d82ba'); lghtp.addTo(stage);
+var lghtp = new Rect(195,180,5,5); lghtp.fill('#8d82ba'); lghtp.addTo(stage);
+var lghtp = new Rect(205,170,5,5); lghtp.fill('#8d82ba'); lghtp.addTo(stage);
+var lghtp = new Rect(195,170,5,5); lghtp.fill('#8d82ba'); lghtp.addTo(stage);
+var lgdrp = new Rect(210,175,5,5); lgdrp.fill('#4d427c'); lgdrp.addTo(stage);
+var lgdrp = new Rect(190,175,5,5); lgdrp.fill('#4d427c'); lgdrp.addTo(stage);
+var lghtb = new Rect(200,170,5,5); lghtb.fill('#1569ef'); lghtb.addTo(stage);
+var lghtb = new Rect(200,165,5,5); lghtb.fill('#1569ef'); lghtb.addTo(stage);
+var lghtb = new Rect(200,175,5,5); lghtb.fill('#1569ef'); lghtb.addTo(stage);
+var blpu = new Rect(200,160,5,5); blpu.fill('#654dc6'); blpu.addTo(stage);
+var blpu = new Rect(200,155,5,5); blpu.fill('#654dc6'); blpu.addTo(stage);
+var toppurp = new Rect(200,150,5,5); toppurp.fill('#aa63e8'); toppurp.addTo(stage);
+var toppurp = new Rect(205,155,5,5); toppurp.fill('#aa63e8'); toppurp.addTo(stage);
+var toppurp = new Rect(195,155,5,5); toppurp.fill('#aa63e8'); toppurp.addTo(stage);
+var toppurp = new Rect(210,150,5,5); toppurp.fill('#aa63e8'); toppurp.addTo(stage);
+var toppurp = new Rect(190,150,5,5); toppurp.fill('#aa63e8'); toppurp.addTo(stage);
+var toppurp = new Rect(190,145,5,5); toppurp.fill('#aa63e8'); toppurp.addTo(stage);
+var toppurp = new Rect(210,145,5,5); toppurp.fill('#aa63e8'); toppurp.addTo(stage);
+var toppurp = new Rect(195,140,5,5); toppurp.fill('#aa63e8'); toppurp.addTo(stage);
+var toppurp = new Rect(205,140,5,5); toppurp.fill('#aa63e8'); toppurp.addTo(stage);
+var toppurp = new Rect(195,135,5,5); toppurp.fill('#aa63e8'); toppurp.addTo(stage);
+var toppurp = new Rect(205,135,5,5); toppurp.fill('#aa63e8'); toppurp.addTo(stage);
+var toppurp = new Rect(200,130,5,5); toppurp.fill('#aa63e8'); toppurp.addTo(stage);
+var rllpurpl = new Rect(200,145,5,5); rllpurpl.fill('#d8c5f7');rllpurpl.addTo(stage);
+var rllpurpl = new Rect(205,145,5,5); rllpurpl.fill('#d8c5f7');rllpurpl.addTo(stage);
+var rllpurpl = new Rect(205,150,5,5); rllpurpl.fill('#d8c5f7');rllpurpl.addTo(stage);
+var rllpurpl = new Rect(195,150,5,5); rllpurpl.fill('#d8c5f7');rllpurpl.addTo(stage);
+var rllpurpl = new Rect(195,145,5,5); rllpurpl.fill('#d8c5f7');rllpurpl.addTo(stage);
+var whp = new Rect(200,135,5,5); whp.fill('#e9e1f7'); whp.addTo(stage);
+var whp = new Rect(200,140,5,5); whp.fill('#e9e1f7'); whp.addTo(stage);
+
+var effect = new Animation('0.7s', {
+  fillColor: 'white',
+  strokeColor: 'white'
+}, 
+{
+  repeat: Infinity
+});
+
+
+var purple = new Rect(245,162,2,2);purple.fill('#7f00ff'); purple.addTo(stage);
+effect.addSubjects([purple]);
+var purple = new Rect(243,160,2,2);purple.fill('#7f00ff'); purple.addTo(stage);
+effect.addSubjects([purple]);
+var purple = new Rect(247,160,2,2);purple.fill('#7f00ff'); purple.addTo(stage);
+effect.addSubjects([purple]);
+var purple = new Rect(245,158,2,2);purple.fill('#7f00ff'); purple.addTo(stage);
+effect.addSubjects([purple]);
+effect.play();
+
+var purple = new Rect(145,162,2,2);purple.fill('#7f00ff'); purple.addTo(stage);
+effect.addSubjects([purple]);
+var purple = new Rect(143,160,2,2);purple.fill('#7f00ff'); purple.addTo(stage);
+effect.addSubjects([purple]);
+var purple = new Rect(147,160,2,2);purple.fill('#7f00ff'); purple.addTo(stage);
+effect.addSubjects([purple]);
+var purple = new Rect(145,158,2,2);purple.fill('#7f00ff'); purple.addTo(stage);
+effect.addSubjects([purple]);
+
+var effect1 = new Animation('0.9s', {
+  fillColor: 'white',
+  strokeColor: 'white'
+}, 
+{
+  repeat: Infinity
+});
+
+
+var purple1 = new Rect(255,182,2,2);purple1.fill('#7f00ff'); purple1.addTo(stage);
+effect1.addSubjects([purple1]);
+var purple1 = new Rect(253,180,2,2);purple1.fill('#7f00ff'); purple1.addTo(stage);
+effect1.addSubjects([purple1]);
+var purple1 = new Rect(257,180,2,2);purple1.fill('#7f00ff'); purple1.addTo(stage);
+effect1.addSubjects([purple1]);
+var purple1 = new Rect(255,178,2,2);purple1.fill('#7f00ff'); purple1.addTo(stage);
+effect1.addSubjects([purple1]);
+effect1.play();
+
+var purple1 = new Rect(165,192,2,2);purple1.fill('#7f00ff'); purple1.addTo(stage);
+effect1.addSubjects([purple1]);
+var purple1 = new Rect(163,190,2,2);purple1.fill('#7f00ff'); purple1.addTo(stage);
+effect1.addSubjects([purple1]);
+var purple1 = new Rect(167,190,2,2);purple1.fill('#7f00ff'); purple1.addTo(stage);
+effect1.addSubjects([purple1]);
+var purple1 = new Rect(165,188,2,2);purple1.fill('#7f00ff'); purple1.addTo(stage);
+effect1.addSubjects([purple1]);
+
+
+var effect2 = new Animation('1.6s', {
+  fillColor: 'white',
+  strokeColor: 'white'
+}, 
+{
+  repeat: Infinity
+});
+
+
+var purple2 = new Rect(235,202,2,2);purple2.fill('#7f00ff'); purple2.addTo(stage);
+effect2.addSubjects([purple2]);
+var purple2 = new Rect(233,200,2,2);purple2.fill('#7f00ff'); purple2.addTo(stage);
+effect2.addSubjects([purple2]);
+var purple2 = new Rect(237,200,2,2);purple2.fill('#7f00ff'); purple2.addTo(stage);
+effect2.addSubjects([purple2]);
+var purple2 = new Rect(235,198,2,2);purple2.fill('#7f00ff'); purple2.addTo(stage);
+effect2.addSubjects([purple2]);
+var purple2 = new Rect(165,132,2,2);purple2.fill('#7f00ff'); purple2.addTo(stage);
+effect2.addSubjects([purple2]);
+var purple2 = new Rect(163,130,2,2);purple2.fill('#7f00ff'); purple2.addTo(stage);
+effect2.addSubjects([purple2]);
+var purple2 = new Rect(167,130,2,2);purple2.fill('#7f00ff'); purple2.addTo(stage);
+effect2.addSubjects([purple2]);
+var purple2 = new Rect(165,128,2,2);purple2.fill('#7f00ff'); purple2.addTo(stage);
+effect2.addSubjects([purple2]);
+effect2.play();
+
+var effect3 = new Animation('1.2s', {
+  fillColor: 'white',
+  strokeColor: 'white'
+}, 
+{
+  repeat: Infinity
+});
+
+
+var purple3 = new Rect(195,112,2,2);purple3.fill('#7f00ff'); purple3.addTo(stage);
+effect3.addSubjects([purple3]);
+var purple3 = new Rect(193,110,2,2);purple3.fill('#7f00ff'); purple3.addTo(stage);
+effect3.addSubjects([purple3]);
+var purple3 = new Rect(197,110,2,2);purple3.fill('#7f00ff'); purple3.addTo(stage);
+effect3.addSubjects([purple3]);
+var purple3 = new Rect(195,108,2,2);purple3.fill('#7f00ff'); purple3.addTo(stage);
+effect3.addSubjects([purple3]);
+
+var purple3 = new Rect(205,222,2,2);purple3.fill('#7f00ff'); purple3.addTo(stage);
+effect3.addSubjects([purple3]);
+var purple3 = new Rect(203,220,2,2);purple3.fill('#7f00ff'); purple3.addTo(stage);
+effect3.addSubjects([purple3]);
+var purple3 = new Rect(207,220,2,2);purple3.fill('#7f00ff'); purple3.addTo(stage);
+effect3.addSubjects([purple3]);
+var purple3 = new Rect(205,218,2,2);purple3.fill('#7f00ff'); purple3.addTo(stage);
+effect3.addSubjects([purple3]);
+effect3.play();
+
+var effect4 = new Animation('0.6s', {
+  fillColor: 'white',
+  strokeColor: 'white'
+}, 
+{
+  repeat: Infinity
+});
+
+
+var purple4 = new Rect(166,173,3,3);purple4.fill('#3e007c'); purple4.addTo(stage);
+effect4.addSubjects([purple4]);
+var purple4 = new Rect(163,170,3,3);purple4.fill('#3e007c'); purple4.addTo(stage);
+effect4.addSubjects([purple4]);
+var purple4 = new Rect(169,170,3,3);purple4.fill('#3e007c'); purple4.addTo(stage);
+effect4.addSubjects([purple4]);
+var purple4 = new Rect(166,167,3,3);purple4.fill('#3e007c'); purple4.addTo(stage);
+effect4.addSubjects([purple4]);
+
+
+
+var purple4 = new Rect(235,124,4,4);purple4.fill('#3e007c'); purple4.addTo(stage);
+effect4.addSubjects([purple4]);
+var purple4 = new Rect(231,120,4,4);purple4.fill('#3e007c'); purple4.addTo(stage);
+effect4.addSubjects([purple4]);
+var purple4 = new Rect(239,120,4,4);purple4.fill('#3e007c'); purple4.addTo(stage);
+effect4.addSubjects([purple4]);
+var purple4 = new Rect(235,116,4,4);purple4.fill('#3e007c'); purple4.addTo(stage);
+effect4.addSubjects([purple4]);
+effect4.play();
+
+var effect5 = new Animation('0.7s', {
+  fillColor: 'white',
+  strokeColor: 'white'
+}, 
+{
+  repeat: Infinity
+});
+
+var purple5 = new Rect(185,214,4,4);purple5.fill('#3e007c'); purple5.addTo(stage);
+effect5.addSubjects([purple5]);
+var purple5 = new Rect(181,210,4,4);purple5.fill('#3e007c'); purple5.addTo(stage);
+effect5.addSubjects([purple5]);
+var purple5 = new Rect(189,210,4,4);purple5.fill('#3e007c'); purple5.addTo(stage);
+effect5.addSubjects([purple5]);
+var purple5 = new Rect(185,206,4,4);purple5.fill('#3e007c'); purple5.addTo(stage);
+effect5.addSubjects([purple5]);
+effect5.play();
+
+
+var effect6 = new Animation('2s', {
+  fillColor: 'white',
+  strokeColor: 'white'
+}, 
+{
+  repeat: Infinity
+});
+var purple6 = new Rect(274,153,3,3);purple6.fill('#3e007c'); purple6.addTo(stage);
+effect6.addSubjects([purple6]);
+var purple6 = new Rect(271,150,3,3);purple6.fill('#3e007c'); purple6.addTo(stage);
+effect6.addSubjects([purple6]);
+var purple6 = new Rect(277,150,3,3);purple6.fill('#3e007c'); purple6.addTo(stage);
+effect6.addSubjects([purple6]);
+var purple6 = new Rect(274,147,3,3);purple6.fill('#3e007c'); purple6.addTo(stage);
+effect6.addSubjects([purple6]);
+effect6.play();
+
+//var purple = new Rect(245,162,2,2);purple.fill('#7f00ff'); purple.addTo(stage);
+//var purple = new Rect(243,160,2,2);purple.fill('#7f00ff'); purple.addTo(stage);
+//var purple = new Rect(247,160,2,2);purple.fill('#7f00ff'); purple.addTo(stage);
+//var purple = new Rect(245,158,2,2);purple.fill('#7f00ff'); purple.addTo(stage);
+
+//
+//var black = new Rect(,,5,5); black.fill('black'); black.addTo(stage);
+//var whiteBlue = new Rect(200,198,4,4); whiteBlue.fill('whit'); whiteBlue.addTo(stage);
+    },
+    width: 1000,   //change the width and height of the canvas
+    height: 1000
+  });
+</script></body>
+</html>
